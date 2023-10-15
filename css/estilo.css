@@ -1,0 +1,38 @@
+/*Header*/
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+header{
+    display: flex;
+    background-color: #Ebdcb2;
+    justify-content: space-between;
+    height: 110px;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 100px;
+    padding: 50px 0px 50px 50px;
+}
+a{
+    text-decoration: none;
+    color: black;   
+    font-size: 20px; 
+}
+nav .nav-link {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav .nav-link:hover {
+    border-bottom: 2px solid #333;
+    padding-bottom: 2px;
+    transition: border-bottom 0.3s;
+}
+
+/*Fin header*/
