@@ -28,15 +28,20 @@ include "inc/header.php";
     </div>
     <div class="frase">
         <div class="texto">Bienvenido a INMOVISIÓN<br>
-Descubre el lugar<br> perfecto para llamar<br> hogar.</div>
+Descubre el lugar<br> perfecto para llamar<br> hogar.
+         </div>
     </div>
     <div class="frase2">
         <div class="texto">Nuestra misión es encontrar el espacio perfecto que se ajuste a tu estilo de vida y necesidades.</div>
     </div>
-</div>
-<div class="divisor">
+    <div class="divisor">
     <p>Casa es donde comienza tu historia. Encuéntrala con nosotros.</p>
 </div>
-
+<h2>Propiedades destacadas</h2>
+aqui van cositas  
+</div>
+    <div class="divisor2">
+    <p>Te ofrecemos una experiencia de compra única, donde cada propiedad cuenta una historia y está esperando ser tu próximo hogar.Nuestra misión es simple pero apasionada: ayudarte a encontrar la propiedad perfecta, ese lugar especial donde puedas construir tus memorias, criar a tu familia y lograr tus objetivos de inversión. Con un equipo de profesionales altamente capacitados y comprometidos, estamos aquí para hacer que tu búsqueda de un hogar sea más fácil y emocionante..</p>
+</div>
 </body>
 </html>

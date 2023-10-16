@@ -56,6 +56,9 @@ nav .nav-link:hover {
         padding: 10px 0; 
         font-size: 16px; 
     }
+    .divisor {
+        height: 100px; /* Altura del divisor en pantallas más pequeñas */
+    }
 }
 /* fin Header*/
 

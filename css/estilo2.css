@@ -3,6 +3,8 @@
     background-size: cover;
     width: 100%;
     height: 100vh;
+    padding: 0;
+    margin: 0;
 
 }
 .cont .frase {
@@ -22,9 +24,9 @@
 }
 .cont .frase2 {
     position: absolute;
-    top: 70%;
-    left: 85%;
-    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 75%;
+    transform: translate(-10%, -20%);
     padding: 20px; 
     border: 8px solid #Ebdcb2
 }
@@ -42,39 +44,67 @@ body {
 
 .imgsec1 {
     position: absolute;
-    width: 75px; /* Establece el ancho deseado para las imágenes secundarias */
-    height: 75px; /* Establece la altura deseada para las imágenes secundarias */
-    left: 10px; /* Ajusta la posición horizontal de las imágenes */
+    width: 75px;
+    height: 75px; 
+    left: 10px; 
     top: 780px;
 }
 .imgsec2 {
     position: absolute;
-    width: 70px; /* Establece el ancho deseado para las imágenes secundarias */
-    height: 70px; /* Establece la altura deseada para las imágenes secundarias */
-    left: 10px; /* Ajusta la posición horizontal de las imágenes */
+    width: 70px; 
+    height: 70px; 
+    left: 10px; 
     top: 860px;
 }
 .imgsec3 {
     position: absolute;
-    width: 80px; /* Establece el ancho deseado para las imágenes secundarias */
-    height: 80px; /* Establece la altura deseada para las imágenes secundarias */
-    left: 10px; /* Ajusta la posición horizontal de las imágenes */
+    width: 80px; 
+    height: 80px; 
+    left: 10px; 
     top: 930px;
 }
+
 .divisor {
+    position: relative; 
     width: 100%;
-    height: 150px; /* Altura del divisor */
-    background-color: #662e1c; /* Color del divisor, en este caso, negro */
-    margin: 0; /* Elimina el margen superior e inferior del divisor */
-    padding: 0; /* Elimina el relleno del divisor */
+    background-color: #662e1c;
+    padding: 0;
+    margin: 0;
+    top: -85px;
+    
 }
-p{
+
+.divisor p {
     display: flex;
     justify-content: center;
-    width: 1000px; /* Ancho del contenedor */
-    height: 200px; /* Altura del contenedor */
-    padding: 5px 650px;
+    width: 100%;
+    padding: 10px;
     font-size: 60px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+h2{
+  text-align: center;
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.divisor2 {
+    position: relative; 
+    width: 100%;
+    background-color: #662e1c;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.divisor2 p {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    padding: 10px;
+    font-size: 40px;
+font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
     
 }
