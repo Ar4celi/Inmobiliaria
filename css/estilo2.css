@@ -1,0 +1,80 @@
+.imgini {
+    background: url("fondoini.jpg") no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+.cont .frase {
+    position: absolute;
+    top: 33%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    padding: 20px; 
+    border: 8px solid #Ebdcb2
+    
+}
+
+.cont .frase .texto {
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 60px;
+}
+.cont .frase2 {
+    position: absolute;
+    top: 70%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    padding: 20px; 
+    border: 8px solid #Ebdcb2
+}
+
+.cont .frase2 .texto {
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 60px;
+}
+body {
+    margin: 0; 
+    padding: 0; 
+    background-color:#C9a66b ;
+}
+
+.imgsec1 {
+    position: absolute;
+    width: 75px; /* Establece el ancho deseado para las imágenes secundarias */
+    height: 75px; /* Establece la altura deseada para las imágenes secundarias */
+    left: 10px; /* Ajusta la posición horizontal de las imágenes */
+    top: 780px;
+}
+.imgsec2 {
+    position: absolute;
+    width: 70px; /* Establece el ancho deseado para las imágenes secundarias */
+    height: 70px; /* Establece la altura deseada para las imágenes secundarias */
+    left: 10px; /* Ajusta la posición horizontal de las imágenes */
+    top: 860px;
+}
+.imgsec3 {
+    position: absolute;
+    width: 80px; /* Establece el ancho deseado para las imágenes secundarias */
+    height: 80px; /* Establece la altura deseada para las imágenes secundarias */
+    left: 10px; /* Ajusta la posición horizontal de las imágenes */
+    top: 930px;
+}
+.divisor {
+    width: 100%;
+    height: 150px; /* Altura del divisor */
+    background-color: #662e1c; /* Color del divisor, en este caso, negro */
+    margin: 0; /* Elimina el margen superior e inferior del divisor */
+    padding: 0; /* Elimina el relleno del divisor */
+}
+p{
+    display: flex;
+    justify-content: center;
+    width: 1000px; /* Ancho del contenedor */
+    height: 200px; /* Altura del contenedor */
+    padding: 5px 650px;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    
+}
