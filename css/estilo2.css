@@ -89,22 +89,14 @@ h2{
   font-size: 60px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.divisor2 {
-    position: relative; 
-    width: 100%;
-    background-color: #662e1c;
-    padding: 0;
-    margin: 0;
-    
-}
 
-.divisor2 p {
-    display: flex;
-    justify-content: left;
-    width: 100%;
-    padding: 10px;
-    font-size: 40px;
-font-family: 'Times New Roman', Times, serif;
-    color: rgb(0, 0, 0);
-    
+
+.divisor2  {
+        background-color: #662e1c;
+        padding: 15px 10px;
+        text-align: center;
+        color: black;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px
+
 }
