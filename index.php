@@ -25,6 +25,7 @@ include "inc/header.php";
 <img src="img/what.png" class="imgsec3"  alt="appwhatss" >
 </a>
     </div>
+    <?php include "inc/filtro1.php"?>
     <div class="frase">
         <div class="texto">Bienvenido a INMOVISIÓN<br>
 Descubre el lugar<br> perfecto para llamar<br> hogar.
